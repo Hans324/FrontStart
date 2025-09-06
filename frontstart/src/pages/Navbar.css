@@ -1,0 +1,25 @@
+.burger {
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 1rem;
+  background: #333;
+  color: white;
+  width: fit-content;
+}
+
+.menu {
+  display: none;
+  flex-direction: column;
+  background: #444;
+  padding: 1rem;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 0;
+}
+
+.menu.active {
+  display: flex;
+}

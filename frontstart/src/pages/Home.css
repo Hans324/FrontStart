@@ -1,0 +1,93 @@
+
+
+
+
+
+media querry 
+.section-Home{
+
+background-color:     #F5F5F5;
+color: #fff;
+}
+
+.section {
+
+background-color: #007ACC;
+color:#F5F5F5
+
+
+}
+
+.sectionIntrotechno {
+
+font-family:"Mona Sans Regular,sans-serif";
+
+
+}
+
+
+
+
+.LogoSectionHTML {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+.HTML-image{
+width: 40%;
+
+}
+
+.LogoSectionCSS{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.CSS-image {
+width:40%;
+}
+
+.LogoSectionJavaScript{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.Javascript-image{
+width:35%;
+
+}
+
+
+.LogoSectionGit{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;  
+
+}
+
+.Git-image{
+width:60%;
+
+}
+
+.LogoSectionReact {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.React-image{
+width:40%;
+
+}
