@@ -1,0 +1,32 @@
+.Footer {
+
+
+ font-family:"Mona Sans Regular,sans-serif";
+  background-color: darkblue;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+   margin: 20px;
+}
+
+.section-Footer {
+
+display: flex;
+flex-direction: row;
+background-color: darkblue;
+
+
+}
+
+.FrontStart {
+
+width :30%;
+
+}
+
+.Partie-un {
+
+    width: 41%;
+    
+}
+
