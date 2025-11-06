@@ -5,6 +5,7 @@ import JavaScriptLogo from '../assets/images/JavaScript.png';
 import HTMLLogo from '../assets/images/HTML5.png';
 import ReactLogo from'../assets/images/react.png';
 import GitLogo from '../assets/images/Git.png';
+import Langages from '../pages/Langages';
 
 import './Home.css'
 
