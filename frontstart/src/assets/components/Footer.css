@@ -1,32 +1,68 @@
 .Footer {
-
-
  font-family:"Mona Sans Regular,sans-serif";
   background-color: darkblue;
   color: #fff;
   display: flex;
   flex-direction: row;
-   margin: 20px;
+   margin: 6em;
+   width: 100em;
+   margin-left: auto;
+   
 }
 
 .section-Footer {
-
 display: flex;
 flex-direction: row;
 background-color: darkblue;
 
-
 }
 
 .FrontStart {
-
 width :30%;
-
 }
 
 .Partie-un {
-
-    width: 41%;
-    
+ width: 41%;
+ 
+}
+.Partie-deux {
+padding:2em;
+}
+.Partie-trois {
+padding:2em;
 }
 
+.Partie-trois{
+padding:2em;
+
+}
+.Partie-quatre{
+padding:2em;
+}
+.Partie-cinq{
+padding:2em;
+
+}
+
+.Réseaux-Sociaux {
+  width: 34em;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.Linkedin {
+width: 9em;
+margin-left: 13em;
+}
+
+.Twitter {
+width: 9em;
+margin-left: 13em;
+}
+.Discord {
+width: 9em;
+margin-left: 13em;
+}

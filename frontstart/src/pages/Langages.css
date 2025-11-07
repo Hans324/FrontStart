@@ -1,0 +1,29 @@
+
+.Placer-Logos {
+display : flex;
+flex-direction: row;
+gap: 4em;
+font-family: sans-serif;
+}
+
+.HTML {
+width: 25em;
+}
+
+.CSS {
+    width: 25em;
+}
+
+.JavaScript {
+width: 25em;
+}
+
+@media screen and (max-width:480px) {
+.Placer-Logos {
+display : flex;
+flex-direction: column;
+font-family: sans-serif;
+padding: 0 16px;
+
+}
+}
