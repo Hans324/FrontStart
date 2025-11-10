@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: row;
    margin: 6em;
-   width: 100em;
+   width: 83em;
    margin-left: auto;
    
 }
@@ -45,24 +45,25 @@ padding:2em;
 }
 
 .Réseaux-Sociaux {
-  width: 34em;
   height: auto;
   display: flex;
   flex-direction: column;
-  
-
+  align-items:center;
 }
 
 .Linkedin {
-width: 9em;
+width: 5em;
 margin-left: 13em;
+margin: 0;
 }
 
 .Twitter {
-width: 9em;
+width: 5em;
 margin-left: 13em;
+margin:0;
 }
 .Discord {
-width: 9em;
+width: 5em;
 margin-left: 13em;
+margin:0;
 }
