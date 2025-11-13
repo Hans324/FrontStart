@@ -1,7 +1,7 @@
 
 import React from 'react';
 import HTMLLogo from '../assets/images/HTML5.png';
-import'./HTML.css'
+
 
 function HTML() {
 
