@@ -1,69 +1,47 @@
-
-
-
-
-
-media querry 
-.section-Home{
-
-background-color:     #F5F5F5;
-color: #fff;
+.section-Home {
+background-color:  #F5F5F5;
+text-align: center;
 }
 
 .section {
-
 background-color: #007ACC;
 color:#F5F5F5
-
+}
+.Title-techno {
+text-align: center;
 
 }
-
-.sectionIntrotechno {
-
-font-family:"Mona Sans Regular,sans-serif";
-
-
-}
-
-
 
 
 .LogoSectionHTML {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width:80%;
+    margin: 3px;
  }
 
-.HTML-image{
-width: 40%;
 
-}
+
 
 .LogoSectionCSS{
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    padding-bottom: 2em;
+    width:75%;
+    margin: 40px;
 }
 
-.CSS-image {
-width:40%;
-}
+
 
 .LogoSectionJavaScript{
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-}
-
-
-.Javascript-image{
-width:35%;
-
+    padding-bottom: 2em;
+    width:72%;
+    margin: 50px;
 }
 
 
@@ -71,23 +49,124 @@ width:35%;
      display: flex;
     justify-content: space-between;
     align-items: center;  
+    padding-bottom: 2em;
+    width:84%;
+    margin-left: -32px;
+}
 
+.LogoSectionReact {
+     display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-bottom: 2em;
+    width:81%;
+    margin: 40px;
+}
+
+
+@media screen and (max-width:768px){
+    
+}
+.section-Home{
+background-color:  #F5F5F5;
+
+}
+.section {
+background-color: #007ACC;
+color:#F5F5F5
+}
+
+.sectionIntrotechno {
+font-family:"Mona Sans Regular,sans-serif";
+}
+
+.LogoSectionHTML {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+.HTML-image{
+width: 40%;
+display:flex;
+margin-left: 110px;
+
+}
+.text-Home{
+text-align: center;
+margin-left:80px
+
+
+}
+.LogoSectionCSS{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.CSS-image {
+width:40%;
+display:flex;
+margin-left: 80px;
+}
+.text-CSS {
+
+text-align: center;
+margin-left: 60px;
+
+}
+.LogoSectionJavaScript{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Javascript-image{
+width:35%;
+display:flex;
+margin-left: 80px;
+}
+
+.text-JavaScript{
+text-align: center;
+margin-left: 60px;
+
+
+}
+.LogoSectionGit{
+     display: flex;
+     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;  
 }
 
 .Git-image{
 width:60%;
-
+display: flex;
+margin-left: 160px;
+}
+.text-Git{
+text-align: center;
+margin-left: 120px;
 }
 
 .LogoSectionReact {
-
-    display: flex;
+     display: flex;
+     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
-
 }
 .React-image{
 width:40%;
-
+display: flex;
+margin-left: 40px;
+}
+.text-React{
+text-align: center;
+margin-left: 40px;
 }

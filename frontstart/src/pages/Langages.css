@@ -18,7 +18,7 @@ width: 25em;
 width: 25em;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:768px) {
 .Placer-Logos {
 display : flex;
 flex-direction: column;
@@ -26,4 +26,50 @@ font-family: sans-serif;
 padding: 0 16px;
 
 }
+.title-language {
+text-align: center;
+}
+
+.HTML{
+display: flex;
+margin-left: 20%;
+
+}
+.text-of-HTML {
+text-align: center;
+margin-left: 10%;
+}
+.HTML-button {
+text-align: center;
+margin-left: 40%;
+
+
+}
+
+.CSS{
+display:flex;
+margin-left: 20%;
+}
+.text-of-CSS{
+text-align: center;
+margin-left: 10%;
+}
+.CSS-button{
+text-align: center;
+margin-left: 40%;
+}
+.JavaScript{
+display:flex;
+margin-left:20%;
+}
+.text-of-JavaScript {
+text-align: center;
+margin-left: 10%;
+}
+.JavaScript-button {
+text-align: center;
+margin-left:40%;
+margin-bottom:10%;
+}
+
 }

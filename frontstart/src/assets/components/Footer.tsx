@@ -14,7 +14,7 @@ function Footer() {
             <section className='section-Footer'>
             <section className='Partie-un'>
 <img src= {SiteLogo}  alt ="Logo de FrontStart" className='FrontStart'/>
-<p>Accèlere ton aprentissage front-end</p>
+<p className='Paragrpahe1'>Accèlere ton aprentissage front-end</p>
 </section>
 <section className='Partie-deux'>
 <h3 className='Navigation'>Navigation rapide</h3>
@@ -34,7 +34,7 @@ function Footer() {
 </section>
 <section className='Partie-quatre'>
 <section className='Réseaux-Sociaux'>
-    <h3>Réseaux sociaux</h3>
+    <h3>Réseaux sociaux </h3>
       <img src= {Linkedin}  alt ="Logo de Linkedin" className='Linkedin'/>
       <img  src= {Twitter}  alt ="Logo de Twitter" className='Twitter'/>
       <img src= {Discord}  alt ="Logo de Discord" className='Discord'/>

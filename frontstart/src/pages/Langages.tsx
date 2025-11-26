@@ -9,11 +9,11 @@ import {Link} from 'react-router-dom'
 function Langages() {
   return (
     <>
-       <h1>Langages de Programmation</h1>
+       <h1 className='title-language'>Langages de Programmation</h1>
       <section className="Placer-Logos">
         <section>
           <img src={HTMLLogo} alt="Logo HTML" className="HTML" />
-          <p>
+          <p className='text-of-HTML'>
             HTML (HyperText Markup Language) est le langage de base du web, créé en 1991.
             Il permet de structurer le contenu d'une page : titres, paragraphes, images, liens, etc.
             Chaque site web en utilise, car c’est la fondation même d’une page web.
@@ -27,7 +27,7 @@ function Langages() {
 
         <section>
           <img src={CSSLogo} alt="Logo CSS" className="CSS" />
-          <p>
+          <p className='text-of-CSS'>
             CSS (Cascading Style Sheets) est un langage apparu en 1996 qui sert à styliser les pages HTML.
             Il permet de contrôler les couleurs, la mise en page, les polices, les animations, etc.
             Grâce à CSS, une page devient visuellement agréable et professionnelle.

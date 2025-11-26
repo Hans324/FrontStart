@@ -27,7 +27,7 @@ function App() {
      <Route path="/contact" element={<Contact/>} />
      <Route path="/html" element={<HTML/>} />
      <Route path="/css" element={<CSS/>} />
-     <Route path="javascript" element={<JavaScript/>} />
+     <Route path="/javascript" element={<JavaScript/>} />
      </Routes>
      <Footer/>
      </BrowserRouter>

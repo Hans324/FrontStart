@@ -1,0 +1,39 @@
+
+.HTML {
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+
+}
+
+.HTML-image {
+
+width: 60%;
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:480px ) {
+
+.HTML {
+display: flex;
+flex-direction:column;
+justify-content:center;
+align-items: center;
+}
+
+.HTML-image {
+width: 40%;
+
+
+}
+
+
+
+}
