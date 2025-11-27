@@ -41,7 +41,7 @@ function Langages() {
 
         <section>
           <img src={JavaScriptLogo} alt="Logo JavaScript" className="JavaScript" />
-          <p>
+          <p className='text-of-JavaScript'>
             JavaScript est un langage de programmation créé en 1995 par Brendan Eich.
             Il rend les sites web interactifs : menus dynamiques, formulaires intelligents, animations, etc.
             Aujourd’hui, plus de 98 % des sites web l’utilisent dans le monde.
