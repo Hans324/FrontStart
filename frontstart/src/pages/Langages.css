@@ -5,17 +5,50 @@ flex-direction: row;
 gap: 4em;
 font-family: sans-serif;
 }
-
+.title-language {
+ text-align: center;
+ margin-bottom:5% ;
+}
 .HTML {
 width: 25em;
+margin-top: -2rem;
+height:78%;
+margin-left: 1rem;
+}
+.text-of-HTML {
+text-align: center;
+margin-top: -1rem;
+}
+.HTML-button {
+text-align: center;
+margin-left: 32%;
 }
 
 .CSS {
-    width: 25em;
-}
-
-.JavaScript {
 width: 25em;
+margin-top: -0.5rem;
+margin-left: 3rem;
+}
+.text-of-CSS {
+text-align: center;
+}
+.CSS-button{
+text-align: center;
+margin-left: 37%;
+}
+.JavaScript {
+width: 22.5em;
+margin-top: 0.5rem;
+margin-left: 3rem;
+}
+.text-of-JavaScript{
+    text-align: center;
+    margin-top: 2.3rem;
+}
+.JavaScript-button{
+text-align: center;
+margin-left: 36%;
+
 }
 
 @media screen and (max-width:768px) {
@@ -37,11 +70,12 @@ margin-left: 20%;
 }
 .text-of-HTML {
 text-align: center;
-margin-left: 10%;
+margin-left: 11%;
+margin-right: 10%;
 }
 .HTML-button {
 text-align: center;
-margin-left: 40%;
+margin-left: 39%;
 
 
 }
@@ -53,10 +87,11 @@ margin-left: 20%;
 .text-of-CSS{
 text-align: center;
 margin-left: 10%;
+margin-right: 11%;
 }
 .CSS-button{
 text-align: center;
-margin-left: 40%;
+margin-left: 39%;
 }
 .JavaScript{
 display:flex;
@@ -65,11 +100,14 @@ margin-left:20%;
 .text-of-JavaScript {
 text-align: center;
 margin-left: 10%;
+margin-right: 16%;
+
 }
 .JavaScript-button {
 text-align: center;
-margin-left:40%;
+margin-left:36%;
 margin-bottom:10%;
+
 }
 
 }

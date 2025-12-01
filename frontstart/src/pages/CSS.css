@@ -1,0 +1,33 @@
+.title-css{
+text-align: center;
+
+}
+.Image-CSS{
+display: flex;
+margin-left: 34%;
+}
+
+.text-body{
+text-align: center;
+
+}
+
+
+@media (max-width:768px) {
+
+.title-css{
+text-align: center;
+margin-left: 15%;
+    }
+.Image-CSS{
+display: flex;
+margin-left: 31%;
+width:50%
+} 
+.text-body{
+text-align: center;
+margin-left:10% ;
+}
+
+
+}

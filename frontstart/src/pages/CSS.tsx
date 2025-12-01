@@ -13,10 +13,11 @@ return(
 
  <section>
 <section>
-<h1>Cours de CSS</h1>
-<img src ={CSSLogo} alt= "Logo de CSS" className="Image CSS" />
+<h1 className="title-css">Cours de CSS</h1>
+<img src ={CSSLogo} alt= "Logo de CSS" className="Image-CSS" />
 
 </section>
+<section className="text-body">
 <h3>CSS: Mettre en forme le contenu</h3>
 <p>CSS (pour Cascading Style Sheets en anglais, qu'on peut traduire en « feuilles de style en cascade ») est le code utilisé pour mettre en forme une page web. 
  Cet article vous guide à travers les bases de CSS : comment cela fonctionne et comment améliorer l'apparence et la présentation de la structure de contenu que vous avez créée dans l'article précédent.</p>
@@ -47,6 +48,10 @@ CSS sert à mettre en forme les éléments HTML : vous sélectionnez les éléme
    <p> 3.Enregistrez le fichier dans le dossier styles sous le nom style.css.</p>
     <p>4.Ouvrez votre fichier index.html. Collez la ligne suivante dans l'en-tête HTML (entre les balises head et head) : </p>
 </section>
+</section>
+<section>
+  <h3>Comment intégrer le CSS</h3>
+ </section>
 </section>
  </section>
 
