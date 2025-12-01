@@ -1,0 +1,39 @@
+.title-Cours {
+
+text-align: center;
+
+}
+
+.Image-JavaScript{
+
+display: flex;
+margin-left: 30%;
+width: 40%
+}
+.section-1{
+
+text-align: center;
+
+}
+@media (max-width:768px) {
+
+
+.title-Cours{
+
+text-align: center;
+margin-left: 10%;
+}
+.Image-JavaScript {
+display: flex;
+margin-left: 30%;
+width: 50%;
+
+}
+
+.section-1{
+
+  text-align: center;  
+  margin-left: 16%;
+}
+
+}
