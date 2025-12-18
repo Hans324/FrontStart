@@ -1,24 +1,25 @@
 
 import React from 'react';
 import HTMLLogo from '../assets/images/HTML5.png';
-
+import './HTML.css'
 
 function HTML() {
 
 
 return(
-<section className='HTML'>
 <section>
-<h1>Cours de HTML</h1>
+<section>
+<h1 className='HTML-title'>Cours de HTML</h1>
 <img src= {HTMLLogo}  alt ="Logo de HTML" className='HTML-image'/>
 
+<section className='First-part'>
 <h2 className='Intro-title-one'>Introduction</h2>
 <p className='paragraphe-one'>HTML (pour HyperText Markup Language en anglais,qu'on peut traduire en "langage de balisage hypertexte") est le langage utilisé 
 pour structurer une page web et son contenu. On peut par exemple organiser le contenu en un ensemble de paragraphes, une liste d'éléments, utiliser des 
 images ou des tableaux de données.
 </p>
 <p className='paragraphe-two'>Dans cette page, tu connaitras les bases essentielles de HTML.</p>
-
+</section>
 
 </section>
 
