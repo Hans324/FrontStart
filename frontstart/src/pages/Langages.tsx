@@ -9,9 +9,9 @@ import {Link} from 'react-router-dom'
 function Langages() {
   return (
     <>
-       <h1 className='title-language'>Langages de Programmation</h1>
+       <h1 className='title-language'>Langages</h1>
       <section className="Placer-Logos">
-        <section>
+        <section className="section-HTML">
           <img src={HTMLLogo} alt="Logo HTML" className="HTML" />
           <p className='text-of-HTML'>
             HTML (HyperText Markup Language) est le langage de base du web, créé en 1991.
@@ -25,7 +25,7 @@ function Langages() {
           </Link>
         </section>
 
-        <section>
+        <section className="section-CSS">
           <img src={CSSLogo} alt="Logo CSS" className="CSS" />
           <p className='text-of-CSS'>
             CSS (Cascading Style Sheets) est un langage apparu en 1996 qui sert à styliser les pages HTML.
@@ -39,7 +39,7 @@ function Langages() {
           </Link>
         </section>
 
-        <section>
+        <section className="section-JavaScript">
           <img src={JavaScriptLogo} alt="Logo JavaScript" className="JavaScript" />
           <p className='text-of-JavaScript'>
             JavaScript est un langage de programmation créé en 1995 par Brendan Eich.
