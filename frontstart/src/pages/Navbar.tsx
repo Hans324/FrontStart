@@ -1,53 +1,66 @@
-import React, { useState } from "react";
+import React, { useState } from "react"; // Importe React et le hook useState
 import './Navbar.css';
 import SiteLogo from '../assets/images/SiteLogo.png'
 
 
-export default function Navbar() {
+// Déclare le composant Navbar
+// + Export du composant Navbar
+export default function Navbar() {     
  
-const [isOpen, setIsOpen] = useState(false);
+// Déclare un state "open"
+// open : valeur actuelle ( true ou false)
+// setOpen : fonction pour modifier cette valeu
+// false = menu fermé par défaut
+
+const[open,setOpen] = useState(false);
 
 
-
-const toggleMenu = () => {
-
-setIsOpen(!isOpen);
-
-};
-
+// Retourne le JSX à afficher
+//Conteneur principal du menu mobile
 return (
-  <header className ="navbar">
+  <section> 
+<header className= "navbar">
+  
+  <img src ={SiteLogo} alt="Logo du site"  className="logo" />
+
+
  
-{/* Logo à gauche  */}
-<img src= {SiteLogo} alt="Logo du site" className="logo" />
+<div className="button ">
 
-{/* Menu à droite */}
-<div className="menu-container">
-  <div className="burger" onClick={toggleMenu}>☰</div>
-  <nav className= {`menu ${isOpen ? "active" : ""}`}>
+<button  onClick={() => setOpen(!open)}>
 
-<a href ="#">Accueil</a>
-<a href="#">Langages de Programmation</a>
-<a href="#">Écoles</a>
-<a href="#">Outils</a>
-<a href="#">Contact</a>
+  ☰
+</button>
+{
 
 
 
 
-  </nav>
+open && (
 
 
+  <ul className="menu-container">
+<li className="ligne" >Accueil</li>
+<li className="ligne">Langages de programation</li>
+<li className="ligne">Écoles </li>
+<li className="ligne">Outils</li>
+<li className="ligne">Contact</li>
+
+
+
+
+  </ul>
+)}
 
 </div>
 
-  </header>
+</header>
+</section>
 
 );
 
-
-
 }
+
 
 
 
