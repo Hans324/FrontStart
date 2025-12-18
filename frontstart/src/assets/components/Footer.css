@@ -8,7 +8,7 @@
    width: 100%;
    margin-left: auto;
   font-size: 2em; 
-   
+   margin-bottom: auto;
 }
 
 .section-Footer {
@@ -90,6 +90,7 @@ margin:0;
 .section-Footer{
 
   flex-direction: column;
+  margin-left: -10%;
 }
 
 .Partie-un,
