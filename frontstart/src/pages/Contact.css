@@ -1,0 +1,173 @@
+
+.Titre-un{
+display: flex;
+justify-content: center;
+
+}
+
+.Titre-deux{
+display: flex;
+justify-content: center;
+
+}
+
+
+.contact-formulaire {
+
+display: flex;
+flex-direction:column;
+align-items: center;
+margin-left:-5%;
+border: 50%;
+background-color: #fff;
+border-radius: 10%;
+
+
+}
+.section-tableau {
+
+width:50%;
+
+}
+.tableau {
+
+height:44rem;
+padding:2%;
+margin-left: 70px;
+
+}
+.tableau-1 {
+padding:0%
+
+}
+.paragraphe-1 {
+text-align: center;
+
+}
+.Nom {
+
+width: 50%;
+height: 10%;
+margin-left: 25%;
+
+
+}
+.contact-nom {
+
+padding:1%;
+margin-left:35%;
+margin: 36%;
+
+}
+.paragraphe-2 {
+text-align: center;
+
+}
+.prenom {
+width:50%;
+height:10%;
+margin-left: 25%;
+
+}
+.contact-prenom {
+
+padding:1%;
+margin-left:33.5%;
+margin: 33.9%;
+}
+
+.tableau-2 {
+padding:1%;
+
+}
+
+.paragraphe-3 {
+text-align: center;
+
+}
+.mail {
+width:50%;
+margin-left: 15%;
+padding:10%;
+}
+.contact-email {
+
+padding: 1%;  
+margin-left: 36.5%; 
+}
+
+.paragraphe-4{
+
+    text-align: center;
+}
+.password {
+width: 50%;
+margin-left:25%;
+
+}
+.contact-password {
+padding: 1%;
+margin-left:33.9%;
+
+}
+
+.tableau-3 {
+padding:1%;
+
+}
+.button {
+padding: 1%;
+margin: 1%
+}
+.Contact-button{
+display: flex;
+justify-content: center;
+margin-right: -4%;
+padding: 0.8%;
+border-radius: 10%;
+background-color: skyblue;
+color: #fff;
+width: 10%;
+margin-left: 45%;
+font-size:90%;
+margin-top: 4%;;
+}
+
+@media screen and (max-width:768px) {
+
+.contact-formulaire {
+
+margin:8%; 
+ margin-left:1%;
+    }
+
+.tableau {
+height: 37rem;
+
+}
+
+.Contact-button{
+
+  width:30%;  
+  margin-left: 36%;
+  font-size: 100%;
+}
+
+.Nom {
+width:90%;
+margin-left:4%;
+
+}
+.prenom {
+width:90%;
+margin-left: 4%;
+
+
+}
+
+.password {
+width:90%;
+margin-left:4%;
+
+}
+}
