@@ -5,22 +5,33 @@ text-align: center;
 
 .section {
 background-color: #007ACC;
-color:#F5F5F5
+color:#F5F5F5;
+
+
 }
 .Title-techno {
 text-align: center;
+margin-left: -13%;
 
 }
 
 
 .LogoSectionHTML {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width:80%;
-    margin: 3px;
+   
+    width:100%;
+    margin: -10px;
+    
+    
  }
+.HTML-image {
 
+
+
+height:34rem;
+margin-right: 64rem;
+width: 39rem;
+
+}
 
 
 
@@ -54,6 +65,12 @@ text-align: center;
     margin-left: -32px;
 }
 
+.Git-image {
+
+    width:60%;
+    display:flex;
+    margin-left:120px;
+}
 .LogoSectionReact {
      display: flex;
     justify-content:space-between;
@@ -63,17 +80,43 @@ text-align: center;
     margin: 40px;
 }
 
+.React-image {
 
+width:40%;
+display:flex;
+margin-left:-40px
+
+}
+
+.text-React {
+text-align: center;
+margin-left: 40px;
+
+
+}
 @media screen and (max-width:768px){
     
 }
 .section-Home{
 background-color:  #F5F5F5;
+text-align: center;
+margin-left: 16%;
+margin-right: 31%;
+}
+.section-part-1 {
+padding:1%
+
+}
+.Title-techno {
+text-align: center;
+margin-left: -11%;
 
 }
 .section {
 background-color: #007ACC;
-color:#F5F5F5
+color:#F5F5F5;
+margin-left: 6%;
+
 }
 
 .sectionIntrotechno {
@@ -90,13 +133,14 @@ font-family:"Mona Sans Regular,sans-serif";
 .HTML-image{
 width: 40%;
 display:flex;
-margin-left: 110px;
+margin-left: 136%;
+
 
 }
 .text-Home{
 text-align: center;
-margin-left:80px
-
+margin-left:100px;
+margin-right:100px;
 
 }
 .LogoSectionCSS{
@@ -112,6 +156,7 @@ margin-left:80px
 width:40%;
 display:flex;
 margin-left: 80px;
+padding: 30px;
 }
 .text-CSS {
 
@@ -130,6 +175,7 @@ margin-left: 60px;
 width:35%;
 display:flex;
 margin-left: 80px;
+padding:30px;
 }
 
 .text-JavaScript{
@@ -148,7 +194,7 @@ margin-left: 60px;
 .Git-image{
 width:60%;
 display: flex;
-margin-left: 160px;
+margin-left: 120px;
 }
 .text-Git{
 text-align: center;
@@ -162,9 +208,11 @@ margin-left: 120px;
     align-items: center;
 }
 .React-image{
-width:40%;
+width:30%;
 display: flex;
-margin-left: 40px;
+margin-left: 0px;
+margin-right: 45px;
+padding:35px;
 }
 .text-React{
 text-align: center;

@@ -26,10 +26,12 @@ return (
         <p>En quelques semaines,vous serez capable de créer vos premières pages web et comprendre comment fonctionnent les sites que vous utilisez chaque jour.</p>
 
       </section>
-      <section className='section'>
+      <section className='section-part-1'>
       <h2 className='Title-techno'>Introduction des technologies</h2>
-      <p></p>
-      <section className='LogoSectionHTML'> 
+      
+     
+      <section className='section'>
+         <section className='LogoSectionHTML'> 
       <img src= {HTMLLogo}  alt ="Logo de HTML" className='HTML-image'/>
       
       <p className='text-Home'>HTML (HyperText Markup Language) est le langage de base du web, créé en 1991.
@@ -40,7 +42,6 @@ return (
 
       
       </section>
-      <section className='section'>
       <section className='LogoSectionCSS'>
       <img src={CSSLogo} alt="Logo de CSS" className ='CSS-image' />
       
